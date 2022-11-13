@@ -442,7 +442,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="about3">
                             <a href="javascript:void(0);"
-                               class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
+                               class="opacity-60 fs-14 px-3 py-2 d-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
                                id="about4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{ translate('Livestock Care') }}
                             </a>
@@ -462,7 +462,7 @@
                             </ul>
 
                             <a href="javascript:void(0);"
-                               class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
+                               class="opacity-60 fs-14 px-3 py-2 d-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
                                id="about5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{ translate('Support for Dairy Processor') }}
                             </a>
