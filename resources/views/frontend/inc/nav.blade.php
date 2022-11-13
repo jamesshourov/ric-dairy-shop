@@ -435,11 +435,13 @@
                         </ul>
                     </li>
                     <li class="list-inline-item mr-0">
-                        <a href="javascript:void(0);"
-                           class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
-                           id="about3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {{ translate('Support Services') }}
-                        </a>
+                        <li class="mr-0">
+                            <a href="javascript:void(0);"
+                               class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
+                               id="about3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {{ translate('Support Services') }}
+                            </a>
+                        </li>
                         <ul class="dropdown-menu" aria-labelledby="about3">
                             <a href="javascript:void(0);"
                                class="opacity-60 fs-14 px-3 py-2 d-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
@@ -460,12 +462,14 @@
                                     </a>
                                 </li>
                             </ul>
+                            <li class="mr-0">
+                                <a href="javascript:void(0);"
+                                   class="opacity-60 fs-14 px-3 py-2 d-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
+                                   id="about5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    {{ translate('Support for Dairy Processor') }}
+                                </a>
+                            </li>
 
-                            <a href="javascript:void(0);"
-                               class="opacity-60 fs-14 px-3 py-2 d-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
-                               id="about5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                {{ translate('Support for Dairy Processor') }}
-                            </a>
                             <ul class="dropdown-menu" aria-labelledby="about5">
                                 <li class="mr-0">
                                     <a href="/product-development"
