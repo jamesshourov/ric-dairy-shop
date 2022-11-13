@@ -323,7 +323,7 @@
                         <a href="javascript:void(0);"
                            class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
                            id="about1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {{ translate('About Ric') }}
+                            {{ translate('About RIC') }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="about1">
                             <li class="mr-0">
@@ -390,6 +390,46 @@
                                 <a href="/where-we-works"
                                    class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
                                     {{ translate('Where We Works') }}
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="list-inline-item mr-0">
+                        <a href="javascript:void(0);"
+                           class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
+                           id="about2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ translate('About SEP') }}
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="about2">
+                            <li class="mr-0">
+                                <a href="/sep-project-overview"
+                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                    {{ translate('SEP Project Overview') }}
+                                </a>
+                            </li>
+                            <li class="mr-0">
+                                <a href="/ric-sep-dairy-projects-summary"
+                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                    {{ translate('RIC- SEP Dairy Projects Summary') }}
+                                </a>
+                            </li>
+                            <li class="mr-0">
+                                <a href="/project-objectives"
+                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                    {{ translate('Project Objectives') }}
+                                </a>
+                            </li>
+                            <li class="mr-0">
+                                <a href="/goals"
+                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                    {{ translate('Goals') }}
+                                </a>
+                            </li>
+                            <li class="mr-0">
+                                <a href="/expected-outcomes"
+                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                    {{ translate('Expected Outcomes') }}
                                 </a>
                             </li>
                         </ul>
