@@ -7777,7 +7777,9 @@ input[type="number"] {
         right: -265px;
     }
 }
-
+header li{
+    position: relative;
+}
 /*dropdown*/
 .dropdown-toggle {
     display: -ms-flexbox;
