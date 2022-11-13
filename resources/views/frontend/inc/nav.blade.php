@@ -435,6 +435,34 @@
                         </ul>
                     </li>
                     <li class="list-inline-item mr-0">
+                        <a href="javascript:void(0);"
+                           class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
+                           id="about3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ translate('Support Services') }}
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="about3">
+                            <a href="javascript:void(0);"
+                               class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset dropdown-toggle"
+                               id="about4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {{ translate('Livestock Care') }}
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="about4">
+                                <li class="mr-0">
+                                    <a href="/lsps"
+                                       class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                        {{ translate('LSPs') }}
+                                    </a>
+                                </li>
+                                <li class="mr-0">
+                                    <a href="/vet-medicine"
+                                       class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                        {{ translate('Vet Medicine') }}
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="list-inline-item mr-0">
                         <a href="/contact-us"
                            class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
                             {{ translate('Contact Us') }}
