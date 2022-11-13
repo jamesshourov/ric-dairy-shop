@@ -434,6 +434,12 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="list-inline-item mr-0">
+                        <a href="/contact-us"
+                           class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                            {{ translate('Contact Us') }}
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
