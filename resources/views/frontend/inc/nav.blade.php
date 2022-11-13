@@ -321,10 +321,10 @@
                     @endforeach
                         <li class="list-inline-item mr-0">
                             <a href="javascript:void(0);"
-                               class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                               class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset dropdown-toggle" id="about1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{ translate('About Ric') }}
                             </a>
-                            <ul>
+                            <ul class="dropdown-menu" aria-labelledby="about1">
                                 <li class="list-inline-item mr-0">
                                     <a href="/history"
                                        class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
