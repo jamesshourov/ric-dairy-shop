@@ -90,9 +90,7 @@
                                 <div class="form-group">
                                     <label>{{ translate('Contact address') }} ({{ translate('Translatable') }})</label>
                                     <input type="hidden" name="types[][{{ $lang }}]" value="contact_address">
-                                    <input type="text" class="form-control" placeholder="{{ translate('Address') }}"
-                                           name="contact_address"
-                                           value="{{ get_setting('contact_address',null,$lang) }}">
+                                    <textarea name="contact_address" id="" cols="30" rows="10" placeholder="{{ translate('Address') }}" class="form-control">{{ get_setting('contact_address',null,$lang) }}</textarea>
                                 </div>
                                 <div class="form-group">
                                     <label>{{ translate('Contact phone') }}</label>

@@ -77,7 +77,7 @@
                     <ul class="list-unstyled">
                         <li class="mb-2">
                            <span class="d-block opacity-30">{{ translate('Address') }}:</span>
-                           <span class="d-block opacity-70">{{ get_setting('contact_address',null,App::getLocale()) }}</span>
+                           <span class="d-block opacity-70">{!! get_setting('contact_address',null,App::getLocale()) !!}</span>
                         </li>
                         <li class="mb-2">
                            <span class="d-block opacity-30">{{translate('Phone')}}:</span>
