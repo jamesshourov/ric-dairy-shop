@@ -331,6 +331,18 @@
                                         {{ translate('History') }}
                                     </a>
                                 </li>
+                                <li class="list-inline-item mr-0">
+                                    <a href="/legal-entities"
+                                       class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                        {{ translate('Legal Entities') }}
+                                    </a>
+                                </li>
+                                <li class="list-inline-item mr-0">
+                                    <a href="/values-vision-and-strategy"
+                                       class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                        {{ translate('Values, Vision & Strategy') }}
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                 </ul>
