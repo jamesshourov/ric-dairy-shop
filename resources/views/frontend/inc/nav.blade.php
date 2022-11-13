@@ -380,6 +380,18 @@
                                     {{ translate('Human Resources') }}
                                 </a>
                             </li>
+                            <li class="mr-0">
+                                <a href="/what-we-do"
+                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                    {{ translate('What We Do') }}
+                                </a>
+                            </li>
+                            <li class="mr-0">
+                                <a href="/where-we-works"
+                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                    {{ translate('Where We Works') }}
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
