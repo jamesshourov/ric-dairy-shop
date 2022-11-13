@@ -325,22 +325,34 @@
                                 {{ translate('About Ric') }}
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="about1">
-                                <li class="list-inline-item mr-0">
+                                <li class="mr-0">
                                     <a href="/history"
                                        class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
                                         {{ translate('History') }}
                                     </a>
                                 </li>
-                                <li class="list-inline-item mr-0">
+                                <li class="mr-0">
                                     <a href="/legal-entities"
                                        class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
                                         {{ translate('Legal Entities') }}
                                     </a>
                                 </li>
-                                <li class="list-inline-item mr-0">
+                                <li class="mr-0">
                                     <a href="/values-vision-and-strategy"
                                        class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
                                         {{ translate('Values, Vision & Strategy') }}
+                                    </a>
+                                </li>
+                                <li class="mr-0">
+                                    <a href="/general-body"
+                                       class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                        {{ translate('General Body') }}
+                                    </a>
+                                </li>
+                                <li class="mr-0">
+                                    <a href="/governing-bodyexecutive-committee"
+                                       class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                        {{ translate('Governing Body/Executive Committee') }}
                                     </a>
                                 </li>
                             </ul>
