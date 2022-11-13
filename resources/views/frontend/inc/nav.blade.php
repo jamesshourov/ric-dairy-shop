@@ -319,6 +319,20 @@
                             </a>
                         </li>
                     @endforeach
+                        <li class="list-inline-item mr-0">
+                            <a href="javascript:void(0);"
+                               class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                {{ translate('About Ric') }}
+                            </a>
+                            <ul>
+                                <li class="list-inline-item mr-0">
+                                    <a href="/history"
+                                       class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                        {{ translate('History') }}
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                 </ul>
             </div>
         </div>
