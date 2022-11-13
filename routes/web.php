@@ -57,7 +57,10 @@ use App\Http\Controllers\WishlistController;
   | contains the "web" middleware group. Now create something great!
   |
  */
-
+Route::get('/pull', function () {
+    $output = exec('git pull 2>&1', $output, $return_var);
+    dd($output);
+});
 Route::controller(DemoController::class)->group(function () {
     Route::get('/demo/cron_1', 'cron_1');
     Route::get('/demo/cron_2', 'cron_2');
