@@ -327,69 +327,63 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="about1">
                             <li class="mr-0">
-                                <a href="/history"
-                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
-                                    {{ translate('History') }}
-                                </a>
-                            </li>
-                            <li class="mr-0">
-                                <a href="/legal-entities"
+                                <a href="https://www.ric-bd.org/about-legal-entities"
                                    class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
                                     {{ translate('Legal Entities') }}
                                 </a>
                             </li>
                             <li class="mr-0">
-                                <a href="/values-vision-and-strategy"
+                                <a href="https://www.ric-bd.org/about-value-vision-strategy"
                                    class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
-                                    {{ translate('Values, Vision & Strategy') }}
+                                    {{ translate('Our Values, Vision & Strategies') }}
                                 </a>
                             </li>
                             <li class="mr-0">
-                                <a href="/general-body"
+                                <a href="https://www.ric-bd.org/about-achievements"
                                    class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
-                                    {{ translate('General Body') }}
+                                    {{ translate('Our Achievements') }}
                                 </a>
                             </li>
                             <li class="mr-0">
-                                <a href="/governing-bodyexecutive-committee"
+                                <a href="https://www.ric-bd.org/about-history"
                                    class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
-                                    {{ translate('Governing Body/Executive Committee') }}
+                                    {{ translate('Our History') }}
                                 </a>
                             </li>
                             <li class="mr-0">
-                                <a href="/senior-management-team"
+                                <a href="https://www.ric-bd.org/about-general-body"
                                    class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
-                                    {{ translate('Senior Management Team') }}
+                                    {{ translate('Our General Body') }}
                                 </a>
                             </li>
                             <li class="mr-0">
-                                <a href="/funding-partners"
+                                <a href="https://www.ric-bd.org/about-governing-body"
                                    class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
-                                    {{ translate('Funding Partners') }}
+                                    {{ translate('Our Governing Body/Executive Committee') }}
                                 </a>
                             </li>
                             <li class="mr-0">
-                                <a href="/association"
+                                <a href="https://www.ric-bd.org/about-senior-management-team"
                                    class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
-                                    {{ translate('Association') }}
+                                    {{ translate('Our Senior Management Team') }}
                                 </a>
                             </li>
                             <li class="mr-0">
-                                <a href="/human-resources"
+                                <a href="https://www.ric-bd.org/about-funding-partners"
+                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                    {{ translate('Our Funding Partners') }}
+                                </a>
+                            </li>
+                            <li class="mr-0">
+                                <a href="https://www.ric-bd.org/about-association"
+                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
+                                    {{ translate('Our Association') }}
+                                </a>
+                            </li>
+                            <li class="mr-0">
+                                <a href="https://www.ric-bd.org/about-human-resources"
                                    class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
                                     {{ translate('Human Resources') }}
-                                </a>
-                            </li>
-                            <li class="mr-0">
-                                <a href="/what-we-do"
-                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
-                                    {{ translate('What We Do') }}
-                                </a>
-                            </li>
-                            <li class="mr-0">
-                                <a href="/where-we-works"
-                                   class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">
-                                    {{ translate('Where We Works') }}
                                 </a>
                             </li>
                         </ul>
